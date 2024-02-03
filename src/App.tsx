@@ -1,12 +1,10 @@
 import "./App.css";
+import Button from "./Button/Button";
 
 function App() {
   return (
-    <div className="max-w-5xl mx-auto flex justify-center items-center ">
-      <div className="main mt-20 ">
-        <div className="box-1  bg-red-500 "></div>
-       
-      </div>
+    <div className="mx-6">
+      <Button/>
     </div>
   );
 }

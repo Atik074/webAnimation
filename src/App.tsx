@@ -3,6 +3,7 @@ import BoxAnimate from "./BoxAnimate/BoxAnimate";
 import Button from "./Button/Button";
 import ClipPathCss from "./ClipPathCss/ClipPathCss";
 import LoadingAnimate from "./LoadingAnimate/LoadingAnimate";
+import TransitionWithJs from "./TransitionWithJs/TransitionWithJs";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BoxAnimate/>
       <LoadingAnimate/>
       <ClipPathCss/>
+      <TransitionWithJs/>
     </div>
   );
 }

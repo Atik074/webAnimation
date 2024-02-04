@@ -1,6 +1,7 @@
 import "./App.css";
 import BoxAnimate from "./BoxAnimate/BoxAnimate";
 import Button from "./Button/Button";
+import ClipPathCss from "./ClipPathCss/ClipPathCss";
 import LoadingAnimate from "./LoadingAnimate/LoadingAnimate";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Button/>
       <BoxAnimate/>
       <LoadingAnimate/>
+      <ClipPathCss/>
     </div>
   );
 }
